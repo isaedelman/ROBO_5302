@@ -15,11 +15,13 @@ setup(
     zip_safe=True,
     maintainer='isaac',
     maintainer_email='edelmanisaac@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='latency histogram plotter',
+    license='Apache 2.0?',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'service_server = ised7881_hw2.service_server:main',
+            'service_client = ised7881_hw2.service_client:main',
         ],
     },
 )

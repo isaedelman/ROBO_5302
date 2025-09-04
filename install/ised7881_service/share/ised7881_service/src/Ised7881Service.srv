@@ -1,0 +1,7 @@
+# Request
+string input
+
+---
+# Response
+string reversed_text
+float64 runtime
