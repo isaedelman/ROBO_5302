@@ -1,4 +1,0 @@
-[console_scripts]
-service_client = ised7881_hw2.service_client:main
-service_server = ised7881_hw2.service_server:main
-

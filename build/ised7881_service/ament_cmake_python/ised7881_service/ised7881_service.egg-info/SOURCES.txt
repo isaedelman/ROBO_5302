@@ -1,6 +1,0 @@
-setup.py
-ised7881_service/__init__.py
-ised7881_service.egg-info/PKG-INFO
-ised7881_service.egg-info/SOURCES.txt
-ised7881_service.egg-info/dependency_links.txt
-ised7881_service.egg-info/top_level.txt
