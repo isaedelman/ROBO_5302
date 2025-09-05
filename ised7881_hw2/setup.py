@@ -22,6 +22,8 @@ setup(
         'console_scripts': [
             'service_server = ised7881_hw2.service_server:main',
             'service_client = ised7881_hw2.service_client:main',
+            'time_publisher = ised7881_hw2.time_publisher:main',
+            'time_subscriber = ised7881_hw2.time_subscriber:main',
         ],
     },
 )

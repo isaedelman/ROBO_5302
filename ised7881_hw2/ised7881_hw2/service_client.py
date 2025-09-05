@@ -9,7 +9,9 @@ import matplotlib.pyplot as plt
 class StringServiceClient(Node):
     def __init__(self):
         super().__init__("string_service_client")
+        # Create client
         self.client = self.create_client(Ised7881Service, "process_string")
+        # Wait for service
         while not self.client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info("Waiting for service ...")
 
@@ -44,9 +46,10 @@ def main(args = None):
 
     # Plot histogram stuff
     plt.hist(latencies, bins=400, edgecolor="black")
-    plt.xlabel("Transfer Latency (s)")
-    plt.ylabel("Frequency")
-    plt.title("Service Transfer Latency over 400 calls")
+    plt.xlabel("Transfer Latency (sec)")
+    plt.ylabel("Frequency (#)")
+    plt.title("Client/Server Transfer Latency over 400 Messages")
+    plt.xlim(0, 0.014)
     plt.show()
 
     Node.destroy_node()
