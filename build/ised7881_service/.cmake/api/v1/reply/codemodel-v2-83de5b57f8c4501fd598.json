@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-16efa92872386a98923e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "ised7881_service__py",
+					"jsonFile" : "directory-ised7881_service__py-2e2b229605050d229afc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/isaac/Documents/ROBO_5302/build/ised7881_service/ised7881_service__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ised7881_service",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ised7881_service_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ised7881_service_egg-545eeabb0e3472d107b9.json",
+					"name" : "ament_cmake_python_build_ised7881_service_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ised7881_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ised7881_service-fe5caaf920e65cab5086.json",
+					"name" : "ament_cmake_python_copy_ised7881_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ised7881_service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ised7881_service-14a9d64942d0a983c856.json",
+					"name" : "ised7881_service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ised7881_service__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ised7881_service__cpp-c86b5c7c2f8b69b758e8.json",
+					"name" : "ised7881_service__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ised7881_service__py::@7143116edefaf119ec21",
+					"jsonFile" : "target-ised7881_service__py-48e959236de67cb99a5c.json",
+					"name" : "ised7881_service__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ised7881_service__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ised7881_service__rosidl_generator_c-eb292ad9386278d9f550.json",
+					"name" : "ised7881_service__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ised7881_service__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ised7881_service__rosidl_generator_py-8f84f5e863b92f1882d9.json",
+					"name" : "ised7881_service__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ised7881_service__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ised7881_service__rosidl_typesupport_c-978baa5a5742c885afeb.json",
+					"name" : "ised7881_service__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ised7881_service__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ised7881_service__rosidl_typesupport_c__pyext-1e42d322a49f5ca7c216.json",
+					"name" : "ised7881_service__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ised7881_service__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ised7881_service__rosidl_typesupport_cpp-f4f5a1cb3ba5d69ab28e.json",
+					"name" : "ised7881_service__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ised7881_service__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ised7881_service__rosidl_typesupport_fastrtps_c-c724d35801cc3399e840.json",
+					"name" : "ised7881_service__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ised7881_service__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ised7881_service__rosidl_typesupport_fastrtps_c__pyext-3e57ba80be1fcc29bcd6.json",
+					"name" : "ised7881_service__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ised7881_service__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ised7881_service__rosidl_typesupport_fastrtps_cpp-1b1fa6a3c10fd5d5e980.json",
+					"name" : "ised7881_service__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ised7881_service__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ised7881_service__rosidl_typesupport_introspection_c-af0da11f5c59eed876cc.json",
+					"name" : "ised7881_service__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ised7881_service__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ised7881_service__rosidl_typesupport_introspection_c__pyext-bfc7aaad3db8acad5d97.json",
+					"name" : "ised7881_service__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ised7881_service__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ised7881_service__rosidl_typesupport_introspection_cpp-1d0d66ff4060a04c1be1.json",
+					"name" : "ised7881_service__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ised7881_service_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ised7881_service_uninstall-15e37db45737f7d99b93.json",
+					"name" : "ised7881_service_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-79a84679d534fd70865b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/isaac/Documents/ROBO_5302/build/ised7881_service",
+		"source" : "/home/isaac/Documents/ROBO_5302/ised7881_service"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

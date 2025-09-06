@@ -1,0 +1,6 @@
+[console_scripts]
+service_client = ised7881_hw2.service_client:main
+service_server = ised7881_hw2.service_server:main
+time_publisher = ised7881_hw2.time_publisher:main
+time_subscriber = ised7881_hw2.time_subscriber:main
+

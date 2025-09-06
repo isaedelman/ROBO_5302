@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ised7881_service/src/Ised7881Service.srv
+// generated code does not contain a copyright notice
+
+
+module ised7881_service {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct Ised7881Service_Request {
+      string input;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct Ised7881Service_Response {
+      string reversed_text;
+
+      double runtime;
+    };
+  };
+};
